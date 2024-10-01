@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+            
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: 'Poppins', sans-serif;
+                scroll-behavior: smooth;
+                box-sizing: border-box;
+            }
+
+            nav {
+                background-color: #5a8133;
+                text-align: left;
+                position: sticky;
+                top: 0;
+                z-index: 2;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: white;
+            }
+
+            #show-btn {
+                text-decoration: none;
+                color: white;
+                font-weight: 600;
+            }
+
+            nav ul li {
+                position: relative;
+                display: inline-block;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                font-weight: 600;
+            }
+
+            nav ul li:hover {
+                background-color: rgba(255, 255, 255, 0.088);
+                border-radius: 3px;
+            }
+
+            #wrapper {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(0, 0, 0, 0.5);
+                background-image: url(gif1.gif);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center bottom;
+                background-attachment: fixed;
+                height: 310px;
+            }
+
+            #wrapper {
+                text-align: center;
+                color: white;
+                font-size: 90px;
+            }
+
+            #isi {
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            img {
+                width: 350px;
+            }
+
+            .gambar {
+                transform: translateX(600px);
+                width: 500px;
+            }
+
+            h1 {
+                text-align: center;
+                letter-spacing: 4px;
+                font-size: 70px;
+                color: #334d19;
+            }
+
+            .biodata {
+                width: 450px;
+                transform: translateX(560px);
+                font-weight: 600;
+                color: #334d19;
+            }
+            
+            footer {
+                width: 100%;
+                background-color: #5a8133;
+                color: white;
+                height: 110px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div id="wrapper">
+                    <h2>PORTOFOLIO</h2>
+                </div>
+            </header>
+        
+            <nav>
+                <ul>
+                    <a href="#wrapper"><li>Home</li></a>
+                    <a href="#isi"><li>About</li></a>
+                </ul>
+            </nav>
+
+            <div id="isi">
+                <h1>Halo!</h1>
+                <div class="gambar">
+                    <img src="alien.png">
+                </div>
+                <div class="biodata">
+                    <p>Nama : Reva Ahzani</p>
+                    <p>Kelas : XI RPL</p>
+                    <p>Sekolah : SMKN 10 Jakarta</p>
+                    <p>Tempat, Tanggal Lahir : Jakarta, 28 November 2007</p>
+                </div>
+            </div>
+
+            <footer>
+                <div class="bungkus">
+                    <br><br>
+                    <p>&copy;Reva Ahzani X RPL</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
